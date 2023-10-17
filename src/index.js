@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './components/styles/global.css';
 import App from './App';
-
+import *  as Constants from './components/Constants';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+console.log(Constants.AsciiLogo);
 root.render(
   <React.StrictMode>
     <App />
