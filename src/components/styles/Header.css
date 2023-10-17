@@ -1,0 +1,12 @@
+#logo{
+    text-decoration:none;
+	color: #26FF00;
+    font-family: "Courier New", Courier, monospace;
+    height: 80%;
+    font-size: 12px;
+}
+
+.Header{
+    display: flex;
+    justify-content: center;
+}
