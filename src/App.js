@@ -1,11 +1,11 @@
 import './components/styles/App.css';
 import Header from './components/Header'
+import Terminal from './components/Terminal';
 function App() {
   return (
-    
-    //TODO: create ternimal js class and insert ASCII logo in the header
     <div className="App">
 		<Header/>
+		<Terminal/>
     </div>
     
   );

@@ -62,7 +62,6 @@ var interval = setInterval(function() {
         } else if (str.charAt(i) == "%") ret += "&nbsp";
         else ret += str.charAt(i);
     }
-//#2C2C2C
     document.getElementById(container).innerHTML = ret;
 }, 100); 
 }
